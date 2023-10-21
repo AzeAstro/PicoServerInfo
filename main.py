@@ -41,3 +41,4 @@ while True:
         lcd.print(f"{SERVER_NICK} {result['playingPlayerCount']}/{result['maxPlayerCount']}Map: {result['serverMap']}")
     else:
         lcd.print(f"{SERVER_NICK} {result['playingPlayerCount']}/{result['maxPlayerCount']}\nMap: {result['serverMap']}")
+    sleep(60)
